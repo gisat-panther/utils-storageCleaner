@@ -1,0 +1,23 @@
+{
+  "name": "utils-storagecleaner",
+  "version": "0.0.1",
+  "description": "Tool for automatic maintenance of file storage",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:watch": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gisat-panther/utils-storageCleaner.git"
+  },
+  "author": "Martin Babic - Gisat s.r.o",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gisat-panther/utils-storageCleaner/issues"
+  },
+  "homepage": "https://github.com/gisat-panther/utils-storageCleaner#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
